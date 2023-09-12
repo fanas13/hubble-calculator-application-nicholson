@@ -1,5 +1,6 @@
 {
   "name": "hubble-calculator-application-nicholson",
+  "homepage": "https://github.com/fanas13/hubble-calculator-application-nicholson.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

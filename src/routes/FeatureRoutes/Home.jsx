@@ -34,7 +34,7 @@ const Home = ({props}) => {
             alignItems="center"     // Center vertically
         >
             <Toolbar />
-            <Grid md={4} item sx={{ display: { xs: 'none', sm: 'block', marginTop: '25px' }}}>
+            <Grid md={4} item sx={{ display: { sm: 'block', marginTop: '25px' }}}>
                 <Grid md={10} item style={{ padding: '40px', textAlign: 'center' }}>
                     <Paper elevation={1} style={{ padding: '26px', textAlign: 'center' }}>
                         <TextField

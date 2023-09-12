@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.MuiButton-root {
+  background-color: #33475b!important; /* Default background color */
+}
+
+.Mui-disabled {
+  background-color: #ccc!important
+}
+
+.MuiButton-root:hover {
+  background-color: #ff4d56!important; /* Default background color */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

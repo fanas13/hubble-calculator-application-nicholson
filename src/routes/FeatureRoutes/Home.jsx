@@ -34,9 +34,9 @@ const Home = ({props}) => {
             alignItems="center"     // Center vertically
         >
             <Toolbar />
-            <Grid md={4} sx={{ display: { sm: 'block', marginTop: '25px' }}}>
+            <Grid md={4} sx={{ display: { xs: 'none', sm: 'block', marginTop: '25px' }}}>
                 <Grid md={10} fullWidth style={{ padding: '40px', textAlign: 'center' }}>
-                    <Paper elevation={1} style={{ padding: '40px', textAlign: 'center' }}>
+                    <Paper elevation={1} style={{ padding: '26px', textAlign: 'center' }}>
                         <TextField
                             label="Expression"
                             variant="outlined"
@@ -47,7 +47,7 @@ const Home = ({props}) => {
                         />
                         <Grid container spacing={2} style={{ marginTop: '20px' }}>
                             <Grid item xs={3}>
-                                <Button variant="contained" color="primary" onClick={() => handleClick('+')}>
+                                <Button className="custom-hover-button" variant="contained" color="primary" onClick={() => handleClick('+')}>
                                     +
                                 </Button>
                             </Grid>
@@ -127,7 +127,7 @@ const Home = ({props}) => {
                                 </Button>
                             </Grid>
                             <Grid item xs={12}>
-                                <Button fullWidth variant="contained" disabled={(!expression && !result ) ? true : false} onClick={clearInput}>
+                                <Button fullWidth variant="contained" disabled={(!expression && !result )? true : false} onClick={clearInput}>
                                     Clear
                                 </Button>
                             </Grid>

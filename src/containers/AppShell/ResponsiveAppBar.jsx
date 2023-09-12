@@ -9,25 +9,9 @@ import AppLogo from './AppLogo';
 const pages = ['Products', 'Pricing', 'Blog'];
 
 const ResponsiveAppBar = (props) => {
-  debugger
   const { className, children } = props;
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
 
   const StyledAppBar = styled(AppBar)`
     && {
@@ -53,5 +37,5 @@ const ResponsiveAppBar = (props) => {
   );
 }
 export default styled(ResponsiveAppBar)`
-
+  
 `;

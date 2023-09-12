@@ -10,7 +10,7 @@ function App() {
         <Routes>
             <Route element={<ResponsiveAppBar {...theme}/>}>
               {/* to be added later, should come here when the user is logged */}
-              <Route exact path="/home" element={<Home />} />
+              <Route exact path="/hubble-calculator-application-nicholson" element={<Home />} />
             </Route>
         </Routes>
       </BrowserRouter>

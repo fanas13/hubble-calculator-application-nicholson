@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import Logo from "../../assets/logos/huble_logo_white.png";
 
 const AppLogo = ({ className }) => {
@@ -10,7 +9,4 @@ const AppLogo = ({ className }) => {
     )
 };
 
-export default styled(AppLogo)`
-    position: relative;
-    padding 1rem;
-`;
+export default AppLogo

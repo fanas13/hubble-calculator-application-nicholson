@@ -40,7 +40,6 @@ const Home = ({props}) => {
                         <TextField
                             label="Expression"
                             variant="outlined"
-                            type="number"
                             fullWidth
                             value={expression}
                             onChange={(e) => setExpression(e.target.value)}

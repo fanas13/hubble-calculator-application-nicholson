@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hubble-calculator-application-nicholson/static/css/main.5fcf8821.css",
+    "main.js": "/hubble-calculator-application-nicholson/static/js/main.6c5eadb8.js",
+    "static/js/787.a14225b4.chunk.js": "/hubble-calculator-application-nicholson/static/js/787.a14225b4.chunk.js",
+    "static/media/huble_logo_white.png": "/hubble-calculator-application-nicholson/static/media/huble_logo_white.80d0300bd6d960d9d6d1.png",
+    "index.html": "/hubble-calculator-application-nicholson/index.html",
+    "main.5fcf8821.css.map": "/hubble-calculator-application-nicholson/static/css/main.5fcf8821.css.map",
+    "main.6c5eadb8.js.map": "/hubble-calculator-application-nicholson/static/js/main.6c5eadb8.js.map",
+    "787.a14225b4.chunk.js.map": "/hubble-calculator-application-nicholson/static/js/787.a14225b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fcf8821.css",
+    "static/js/main.6c5eadb8.js"
+  ]
+}

@@ -36,7 +36,7 @@ const Home = ({props}) => {
             <Toolbar />
             <Grid md={4} item sx={{ display: { sm: 'block', marginTop: '25px' }}}>
                 <Grid md={10} item style={{ padding: '40px', textAlign: 'center' }}>
-                    <Paper elevation={1} style={{ padding: '26px', textAlign: 'center' }}>
+                    <Paper elevation={1} style={{ padding: '22px', textAlign: 'center' }}>
                         <TextField
                             label="Expression"
                             variant="outlined"
